@@ -7,9 +7,5 @@ I’m a Mathematics undergraduate in the UK focused on quantitative finance, dat
 - Numerical methods application in C# & Python (CAS project and various optimisation projects)
 - Some SQL for databse work, alongside work in C,C# and Javascript for general SWE tasks
 
-📌 Current focus
-- Working on a public portfolio of finance and stats projects, focused on keeping things well documented and reproducible
-- Brushing up on the fundamentals: probability, linear algebra, stats, optimisation
-
 📫 Contact
 - Email: muhammad.khan.quant@gmail.com
