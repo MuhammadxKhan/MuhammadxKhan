@@ -16,9 +16,6 @@ Python trading system using fair-value estimation, signal generation, inventory-
 **Portfolio Optimisation & Tail-Risk Engine**  
 Python Portfolio risk engine with EWMA/Ledoit-Wolf covariance, Monte Carlo/Student-t/bootstrap scenarios, constrained efficient-frontier optimisation, VaR/CVaR, and walk-forward backtesting.
 
-**DeFi Yield Risk Research**
-Research Q: Are high DeFi lending yields persistent, or are they mostly temporary liquidity spikes?
-
 **Computer Algebra System**  
 C# symbolic/numerical computation system with custom parsing, differentiation, integration, and mathematical function support.
 
