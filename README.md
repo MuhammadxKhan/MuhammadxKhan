@@ -1,39 +1,36 @@
 # Muhammad Khan
 
 Mathematics undergraduate in the UK, working in quantitative finance and applied
-machine learning. The part I find interesting is usually not getting a number —
-it is establishing whether the number is real.
+machine learning. 
 
-**Currently:** day-ahead energy forecasting, portfolio risk and tail modelling,
+**Currently:** energy forecasting, portfolio risk and tail modelling,
 and algorithmic trading research.
 
----
 
 ## Selected projects
 
-### [power-load-forecast](https://github.com/MuhammadxKhan/power-load-forecast)
+### Power Load Forecast
 
-Day-ahead forecasting of German hourly electricity demand, built to measure what
+Day-ahead forecasting of German hourly electricity demand,to measure what
 better weather information is actually worth.
 
 Gradient boosting reaches **1,201 MW MAE (2.27% MAPE)** on a held-out 2019–2020
-test period — a **0.50 skill score** against the seasonal-naive baseline, and
+test period, a **0.50 skill score** against the seasonal-naive baseline, and
 ahead of the TSOs' own published day-ahead forecast scored on the same rows
 (1,762 MW MAE, though it is issued at a different hour, so not quite
-like-for-like).
+the same).
 
 The weather question is the point of the project. Temperature enters through
-four switchable modes — `none`, `lagged`, `noisy`, `perfect` — so its value gets
-measured rather than assumed. Perfect foreknowledge buys 2.5%; `lagged` is worse
+four switchable modes ("none", "lagged", "noisy", "perfect") so its value gets
+measured. Perfect foreknowledge buys 2.5%; "lagged" is worse
 than no weather at all, because yesterday's temperature only adds noise the
 model has already taken from yesterday's demand. A ten-seed study and a
 rolling-origin backtest then put that gain in context: the fold-to-fold range is
 about five times the mean effect, so the honest answer is seasonal — 13–16% in
 July and August, and nothing across winter.
 
-`OPSD · ERA5 · PyTorch · scikit-learn · CI running self-checks and ruff on every push`
 
-### [quantitative-portfolio-risk-engine](https://github.com/MuhammadxKhan/quantitative-portfolio-risk-engine)
+### Quantitative Portfolio Risk Engine
 
 Portfolio risk and allocation tested across scenario assumptions rather than one.
 
@@ -42,9 +39,8 @@ fat-tailed Student-t, historical bootstrap), VaR and CVaR estimation,
 constrained efficient-frontier optimisation, and a walk-forward backtest against
 an equal-weight benchmark that charges turnover and transaction costs.
 
-`NumPy · pandas · SciPy · yfinance`
 
-### [imc-prosperity-4-trading-strategies](https://github.com/MuhammadxKhan/imc-prosperity-4-trading-strategies)
+### IMC Prosperity 4 Competition 
 
 Relative-value strategy for Round 5 of IMC Prosperity 4, contributing to a
 **top 1% global team score**.
@@ -61,7 +57,6 @@ differentiation and integration — and a macro-regime portfolio simulator in
 Python covering crisis shocks, leverage constraints, transaction costs and risk
 limits.
 
----
 
 ## Tools
 
